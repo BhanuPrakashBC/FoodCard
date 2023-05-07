@@ -1,0 +1,100 @@
+.card{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    max-width: 230px;
+    min-width: 230px;
+    height: 367px;
+    padding: 10px;
+
+}
+.card:hover{
+    transform: translate(-0px, -10px);
+    
+}
+.cartimg{
+    object-fit:cover;
+    width: 30px;
+    height: 30px;
+    background: #0DB14B;
+    padding: 5px;
+    border-radius: 50%;
+}
+.cartlist{
+    object-fit:cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background:  #FFC315;
+    padding: 5px;
+}
+.cartpriceimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.cartpriceimg .price {
+  order: 1;
+}
+.cartpriceimg .cartlist {
+    order: 2;
+    margin-left: 78px;
+}
+.cartpriceimg .cartimg {
+  order: 3;
+}
+
+.soldout{
+    position: absolute;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    color: #ff0000;
+    background: #ffffff;
+    border-radius: 6px;
+    width: 89px;
+    height:0px;
+    top: 0px;
+    left: 160px;
+}
+.itemimage{
+    border-radius: 20px;
+    left: 15px;
+    position:relative;
+    max-height: 170px;
+    min-height: 170px;
+}
+.unit{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #707070;
+}
+
+.itemtitle{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #353839;
+    max-height: 23px;
+    min-height: 23px;
+}
+.price{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #F15C25;
+}
