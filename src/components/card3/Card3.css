@@ -1,0 +1,66 @@
+.tophead3{
+    width:170px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+    color: #353839;
+    margin-left: 80px;
+    
+  }
+  .bannerrow{
+    display: flex;
+  }
+  .banner{
+    display: flex;
+    column-gap: 20px;
+  }
+  
+  .bannerimg{
+    width: 300px;
+    border-radius: 0px;
+  }
+  .bannerimg:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.469);
+    transform: scale(1.10, 1.10);
+  }
+  .bannerarrowleft{
+    max-height: 30px;
+    margin-top: 80px;
+    margin-right: 50px;
+    cursor: pointer;
+  }
+  .bannerarrowright{
+    max-height: 30px;
+    margin-top: 80px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+
+  .th {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .th {
+    background:
+      linear-gradient(
+        to right,
+        rgb(0, 0, 0),
+        #5a2626
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 60% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+  .th:hover {
+    background-size: 0 3px, 60% 3px;
+  }

@@ -1,4 +1,4 @@
-
+//items cards
 const weeklySpecial=[{ image:require("./assets/cal.png"),unit:"250g",title:"Chinese Cabbage",price:"$1.65",cartlist:require("./assets/cartlist.png"),cartimg:require("./assets/cart.png")},
     { image:require("./assets/tatasalt.png"),unit:"1 Kg",title:"Tata Salt Litelow Sodium Iodised",price:"$2.99",cartlist:require("./assets/cartlist.png"),cartimg:require("./assets/cart.png")},
     { image:require("./assets/avacodo.png"),avl:"Sold Out",unit:"Each One",title:"Fresh Avacoda",price:"$0.99",cartlist:require("./assets/cartlist.png"),cartimg:require("./assets/cart.png")},
@@ -32,6 +32,17 @@ const topSeller=[
     { image:require("./assets/broccoli.png"),unit:"Each One",title:"Broccoli Floret",price:"$0.99",cartlist:require("./assets/cartlist.png"),cartimg:require("./assets/cart.png")}
 ]
 
+//Header Section
+const header1=[{head:"Weekly Special"}]
+const header2=[{head:"Featured Products"}]
+const header3=[{head:"Top Seller"}]
+
+//Banner Section
+const banner=[{arrowleft:require("./assets/arrowleft.png"),arrowright:require("./assets/arrowright.png"),banner1:require("./assets/banner/banner1.png"),banner2:require("./assets/banner/banner2.png"),banner3:require("./assets/banner/banner3.png"),banner4:require("./assets/banner/banner4.png")}]
+
+//Footer Section
+const footer=[{dot:require("./assets/footer/footerdot.png"),img:require("./assets/footer/footerimg.png"),icon:require("./assets/footer/footericon.png")}]
+
 export default {
-    weeklySpecial,featuredProducts,topSeller
+    weeklySpecial,featuredProducts,topSeller,header1,header2,header3,banner,footer
 }

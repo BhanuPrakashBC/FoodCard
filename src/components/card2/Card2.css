@@ -1,0 +1,65 @@
+.headersection{
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 10px;
+  }
+  .headersection .viewall{
+    margin-left: 960px;
+    margin-top: 0px;
+  }
+  .viewall{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  .viewall .view{
+    order: 1;
+  }
+  .viewall .line{
+    order: 2;
+    margin-left: 10px;
+  }
+  .viewall .arrow{
+    order: 3;
+    position: relative;
+    right: 6px;
+  }
+  .mark {
+      box-sizing: border-box;
+      width: 0.313px;
+      height: 0.561px;
+    }
+    .arrow {
+      border: solid #292826;
+      border-width: 0 0.063rem 0.063rem 0;
+      display: inline-block;
+      padding: 0.188rem;
+    }
+    .right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+    .line {
+      width: 8px;
+      height: 0px;
+      border: 1px solid #353839;
+      margin: 0px;
+    }
+    .tophead {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 38px;
+      color: #353839;
+      width:auto;
+    }
+    .view {
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+      color: #353839;
+      width: 70px;
+    }
